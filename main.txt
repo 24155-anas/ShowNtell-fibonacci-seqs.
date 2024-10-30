@@ -1,4 +1,8 @@
-hello 
-second attempt 
-sample ....
+Group 8 
+FIBONACCI SERIES CALCULATOR 
+So topics are now divided among the group members.
+I will be working on the code.
+Ahmad have been assigned the task of making slides.
+Hadi,ALi,Abdulrahman will do research on topics.(recursion etc.)
+
 
