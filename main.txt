@@ -1,8 +1,81 @@
-Group 8 
-FIBONACCI SERIES CALCULATOR 
-So topics are now divided among the group members.
-I will be working on the code.
-Ahmad have been assigned the task of making slides.
-Hadi,ALi,Abdulrahman will do research on topics.(recursion etc.)
+Recursion
+A recursive function is simply defined as a routine that calls itself directly or indirectly.
+A recursive function is a process which calls itself directly or indirectly .
+In other words, it is a function that solves the problem by dividing it into parts and then solving its parts to get it done.This technique is commonly used in programming to solve problems that can be broken down into simpler and simpler , similar subproblems .
+Properties :
+The primary property of recursion is the ability to solve a problem by breaking into smaller sub-problems each can be solved in the same way.
+It must have a stopping criteria to avoid any kind of infinite recursion.
+They may be less efficient than iterative solutions in terms of memory and performance .
+Advantages :
+Recursion can  simplify complex problems by breaking them .
+It can be more readable and  understandable than iterative code.
+It is essential for some algorithms and data structures.
+Disadvantages :
+It can be less effective than iterative solutions in terms of memory and performance.
+It can be more challenging to debug and understand than iterative solutions.
+It can lead to stack overflow errors if recursion depth is too high.
+Types :
+Direct recurssion
+Indirect recursion
+Direct recursion :
+When a function is called within itself directly is called direct recursion.
+For example :
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    if (n <= 1)  // base case
+        return 1;
+    else
+        return n * factorial(n - 1);  // recursive case
+}
+
+int main() {
+    int num = 5;
+    cout << "Factorial of " << num << " is " << factorial(num) << endl;
+    return 0;
+}
+Breaking point : 
+The breaking point in this code is that if(n>=1) if n gets smaller than one then return 1.because factorial of 0 and 1 is 1 because it returns only one .
+Code : 
+The purpose of this code is to find a factorial of a given number .When the number is greater than 0 and 1 then the function calls itself and calculates the factorial of the number always until the statement is true.
+Indirect recursion : 
+It occurs when the function calls another function that eventually calls the original function and it forms a cycle.
+For example : 
+#include <iostream>
+using namespace std;
+
+void functionA(int n);
+void functionB(int n);
+
+void functionA(int n) {
+    if (n > 0) {
+        cout << "A: " << n << endl;
+        functionB(n - 1);  // calls functionB
+    }
+}
+
+void functionB(int n) {
+    if (n > 0) {
+        cout << "B: " << n << endl;
+        functionA(n - 1);  // calls functionA
+    }
+}
+
+int main() {
+    int num = 5;
+    functionA(num);
+    return 0;
+}
+Calls : 
+functionA calls functionB, and then functionB calls functionA in an indirect recursive manner.
+Breaking point : 
+The process continues, decreasing n each time, until n reaches 0, at which point neither function calls the other, and the recursion stops.
+Types of Direct function : 
+Tail recursion 
+Head recursion 
+Tree recursion 
+Nested recursion 
+
 
 
