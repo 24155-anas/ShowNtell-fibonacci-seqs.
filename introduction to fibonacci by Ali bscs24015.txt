@@ -1,0 +1,21 @@
+                                                           Fibonacci Sequence
+Definition:
+We can define it as the series of numbers(sequence)in which each number is the sum of the two preceding ones.Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers,commonly denoted Fn
+Example:
+0,1,1,2,3,5,8,13,21,34,55,89,144,233,377
+REAL LIFE EXAMPLE:
+spirals of seedsin the center of sunflower.
+Formula:
+Fn = Fn-1 + Fn-2, where n > 1.
+Example F(5)=5
+Introduction of the founder:
+The man's full name was Leonardo of Pisa, or Leonardo Pisano in Italian. He was born in about 1175 in Pisa, a Tuscan town famous for its Leaning Tower. The name Fibonacci [pronounced fib-on-ach-ee] is short for “filius Bonacci “ or “son of Bonacci.
+Fibonacci brings the numerals 0-9 to Europe and identifies a number sequence that exists in nature. He solved many problems with algebra for the first time using the shortened versions of numbers that used the Hindu-Arabic numerals. He wrote several books that studied algebra, geometry, and trigonometry.
+USES:
+Fibonacci numbers can also be used to define a spiral and are of interest to biologists and physicists because they are frequently observed in various natural objects and phenomena. The branching patterns in trees and leaves, for example, and the distribution of seeds in a raspberry reflect the Fibonacci sequence.
+RELATION WITH COMPUTER SCIENCE:
+In computational theory, Fibonacci numbers can represent the complexity of algorithms, as exemplified by the Fibonacci Heap data structure. The efficiency of Fibonacci algorithms is paramount in computing, where rapid processing of extensive data is necessary.
+Relation with golden ratio:
+To summarize, the Fibonacci sequence begins with 0 and 1, and each successive number is the sum of the two previous numbers. As the Fibonacci sequence grows, if you divide pairs of numbers in the sequence (the larger by the smaller), you will get an approximate value of the golden ratio, which is roughly 1.618.
+
+
