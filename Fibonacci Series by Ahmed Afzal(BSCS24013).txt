@@ -1,0 +1,81 @@
+Fibonacci Series
+
+Definition:
+It is a series of numbers in which each number is the sum of the two preceding numbers.               The numbers in the Fibonacci series are called Fibonacci numbers.
+* Example: 0,1,1,2,3,5,8,13,21 and so on…
+* Formula: Fn = Fn-1 + Fn-2, where n > 1
+
+Discovery: 
+       This series was discovered by an Italian mathematician, initially known as Leonardo of Pisa.        Later, he was given the name Fibonacci(meaning son of Bonacci) by historians. This series was named after him.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Formula
+
+Fn = Fn-1 + Fn-2, where n > 1
+nTermF(n-1)F(n-2)Fn = Fn-1 + Fn-2, where n > 101st--F0=012ndF0=0-F1=123rdF1=1F0=0F2=0+1=134thF2=1F1=1F3=1+1=245thF3=2F2=1F4=2+1=356thF4=3F3=2F5=3+2=567thF5=5F4=3F6=5+3=8……………
+
+
+Applications
+
+Nature: Use to determine the branching of trees, the arrangement of leaves on a stem, the flowering of artichokes, the pattern of snail’s shell and the spiral arrangement of seeds in a sunflower.
+
+Science: It is used in data structures like Fibonacci heaps in computer science to improve algorithm efficiency. In physics, Fibonacci patterns are observed in wave propagation and quantum models, aiding in understanding natural patterns and particle behavior.
+Coding: The Fibonacci sequence is often used to teach recursion and dynamic programming due to its simple recursive definition. It helps optimize algorithms for problems like the knapsack or matrix chain multiplication. Additionally, Fibonacci heaps, a type of priority queue, improve efficiency in graph algorithms like Dijkstra’s shortest path.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Golden Ratio
+Golden Ratio:
+
+  As the Fibonacci sequence grows, if you divide pairs of numbers in the sequence (the larger by the smaller), you will get an approximate value of the golden ratio, which is roughly 1.618.
+
+Formula: F(n)/ F(n-1)
+Application: The golden ratio of 1.618, important to mathematicians, scientists, and naturalists for centuries is derived from the Fibonacci sequence.
+
+Visualization: Fibonacci numbers and the Golden Mean are numbers and thus 0-dimensional objects. Usually, they are visualized in the Euclidean plane using squares and rectangles in a spiral arrangement. The Golden Mean, as a ratio, is an affine geometric concept and therefore Euclidean visualizations are not mandatory.
+
+
+
+Mathematical Properties of 
+
+
+
+Properties:
+* Golden ratio is a special number and is approximately equal to 1.618.
+* Golden ratio is represented using the symbol “?”.
+* Golden ratio formula is ? = 1 + (1/?).
+* ? is also equal to 2 × sin (54°)
+* If we take any two successive Fibonacci Numbers, their ratio is very close to the value 1.618 (Golden ratio).
+
