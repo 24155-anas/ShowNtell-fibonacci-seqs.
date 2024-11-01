@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+void print_Fibonacci(int num);
+int main()
+{
+
+	int n;
+	cout << "Enter how many terms do you want to print in Fibonacci sequence:";
+	cin >> n;
+	print_Fibonacci(n);
+	return 0;
+}
+void print_Fibonacci(int num)
+{
+	int f1 = 0;
+	int f2 = 1;
+	cout << "fibonacci:" << f1 << "," << f2;
+	int next;
+	for (int i = 3; i <= num; i++)
+	{
+		next = f1 + f2;
+		cout << "," << next;
+		
+		f1 = f2;
+		f2 = next;
+	}
+	cout << endl;
+}
