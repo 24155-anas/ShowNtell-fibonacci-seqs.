@@ -1,0 +1,43 @@
+﻿Fibonacci sequence : 
+A fibonacci sequence is a sequence followed by every other element in nature like flower petals , sunflower seeds and in many fields its use is very essential .
+Obtained :
+It is a sequence of numbers that starts with 0 and 1 and the so on is obtained by adding the two previous one’s for instance : 
+0 ,1, 1, 2, 3, 5,8,12 ….. Have you noticed that a sequence following this sequence is essential for us as it is the use of today .  
+Relation with discrete mathematics : 
+It is connected with discrete math through concepts like recurrence relations , combinatorics and even graph theory.
+Recurrence relation : 
+The fibonacci sequence is a classical relation  example of the recurrence relation because it uses the previous terms to describe the upcoming terms and recurrence relation is such that it uses the previous terms to generate a new one .
+Look at this expression : 
+f(n)=f(n-1)+f(n-2) 
+This eq is a recursive relation because it describes a way to show f(n) in terms of the previous numbers .
+Code example : 
+#include <iostream>
+using namespace std;
+
+
+// Recursive function to calculate Fibonacci sequence
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n; // Base cases: F(0) = 0, F(1) = 1
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive relation
+}
+
+
+
+
+int main( ) {
+    int n;
+    cout << "Enter a number to find its Fibonacci value: ";
+    cin >> n;
+
+
+    // Calculate Fibonacci and display the result
+    cout << "Fibonacci(" << n << ") = " << fibonacci(n) << endl;
+
+
+    return 0;
+}
+THE OUTPUT : 
+This code gives the number at which the number you entered is in that place in the fibonacci sequence .
+This code is the foundation of the eq defined at the upper part .
