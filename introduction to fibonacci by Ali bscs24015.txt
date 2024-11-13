@@ -5,6 +5,14 @@ Example:
 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377
 REAL LIFE EXAMPLE:
 spirals of seeds in the center of sunflower.
+Applications:
+In Mathematics
+Fibonacci sequence is used in number theory, algebra, and geometry. It has applications in the analysis of financial markets and computer algorithms.
+
+In Biology
+Fibonacci sequence appears in biological settings, such as the branching of trees, the arrangement of leaves on a stem, the flowering of artichokes, and the spiral arrangement of seeds in a sunflower.
+
+
 Formula:
 Fn = Fn-1 + Fn-2, where n > 1.
 Example F(5)=5
