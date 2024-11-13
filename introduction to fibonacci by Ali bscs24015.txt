@@ -161,5 +161,6 @@ step4 – Combine the solutions: Combine the solutions of the subproblems to sol
 Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this
 
 f(n) = 1 + 2 + 3 +……..+ n
+So,we can say that use of recursion is too much concerning in the field of computer science,because it has a key role in determining the steps of algorithms.In other words it tells us about the total time which will be taken by the code or coder.
 
 
