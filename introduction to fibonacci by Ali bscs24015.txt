@@ -114,10 +114,10 @@ An odd fact:
 The sequence goes even, odd, odd, even, odd, odd, even, odd, odd, ... :
 
 0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	610	...
-Why?
+There is a reason in this phenomena that is repeating.
 
 Because adding two odd numbers produces an even number, but adding even and odd (in any order) produces an odd number.
-
+We can also prove it by using predicates and operators.
 
 
 
@@ -161,26 +161,8 @@ Step3 – Ensure the recursion terminates: Make sure that the recursive function
 
 step4 – Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
 
-Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this,
-
-approach(1) – Simply adding one by one
-
+Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this
 
 f(n) = 1 + 2 + 3 +……..+ n
-
-
-but there is another mathematical approach of representing this,
-
-approach(2) – Recursive adding 
-
-
-f(n) = 1                  n=1
-
-
-f(n) = n + f(n-1)    n>1
-
-
-There is a simple difference between the approach (1) and approach(2) and that is in approach(2) the function “ f( ) ” itself is being called inside the function, so this phenomenon is named recursion, and the function containing recursion is called recursive function, at the end, this is a great tool in the hand of the programmers to code some problems in a lot easier and efficient way.
-
 
 
