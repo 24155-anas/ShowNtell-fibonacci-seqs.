@@ -96,13 +96,10 @@ x6 =
 v5
  
 
-When I used a calculator on this (only entering the Golden Ratio to 6 decimal places) I got the answer 8.00000033 , a more accurate calculation would be closer to 8.
 
-Try n=12 and see what you get.
-
-You can also calculate a Fibonacci Number by multiplying the previous Fibonacci Number by the Golden Ratio and then rounding (works for numbers above 1):
-
-Example: What is the next in the sequence after 8 ?
+:
+use of Golden ratio in determining nth fibonacci
+ What is the next in the sequence after 8 ?
 It will be 8 times f:
 
 8f = 8 × 1.618034...
