@@ -164,3 +164,5 @@ f(n) = 1 + 2 + 3 +……..+ n
 So,we can say that use of recursion is too much concerning in the field of computer science,because it has a key role in determining the steps of algorithms.In other words it tells us about the total time which will be taken by the code or coder.
 
 Efficiency of a code can be determined using recursion . So,to improve efficiency and to check efficiency recursion can be the helpful or prior tool
+What is a major concept of recursion?
+Recursion is a technique in programming where a function calls itself to solve a problem. It involves breaking down a complex problem into smaller subproblems. Each time the function calls itself, it works on a smaller subset of the original problem until a base case is reached, allowing the recursion to terminate.
