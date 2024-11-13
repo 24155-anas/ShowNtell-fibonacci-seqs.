@@ -9,7 +9,7 @@ Formula:
 Fn = Fn-1 + Fn-2, where n > 1.
 Example F(5)=5
 Introduction of the founder:
-The man's full name was Leonardo of Pisa, or Leonardo Pisano in Italian. He was born in about 1175 in Pisa, a Tuscan town famous for its Leaning Tower. The name Fibonacci [pronounced fib-on-ach-ee] is short for ìfilius Bonacci ì or ìson of Bonacci.
+The man's full name was Leonardo of Pisa, or Leonardo Pisano in Italian. He was born in about 1175 in Pisa, a Tuscan town famous for its Leaning Tower. The name Fibonacci [pronounced fib-on-ach-ee] is short for ‚Äúfilius Bonacci ‚Äú or ‚Äúson of Bonacci.
 Fibonacci brings the numerals 0-9 to Europe and identifies a number sequence that exists in nature. He solved many problems with algebra for the first time using the shortened versions of numbers that used the Hindu-Arabic numerals. He wrote several books that studied algebra, geometry, and trigonometry.
 USES:
 Fibonacci numbers can also be used to define a spiral and are of interest to biologists and physicists because they are frequently observed in various natural objects and phenomena. The branching patterns in trees and leaves, for example, and the distribution of seeds in a raspberry reflect the Fibonacci sequence.
@@ -76,40 +76,9 @@ B / A
 233
 377
  	1.618025751...
-...
-...
- 	...
 
 
-A
-B
- 	
-B / A
-192
-16
- 	0.08333333...
-16
-208
- 	13
-208
-224
- 	1.07692308...
-224
-432
- 	1.92857143...
-...
-...
- 	...
-7408
-11984
- 	1.61771058...
-11984
-19392
- 	1.61815754...
-...
-...
- 	...
-It takes longer to get good values, but it shows that not just the Fibonacci Sequence can do this!
+
 
 Using The Golden Ratio to Calculate Fibonacci Numbers
 Its surprising is that we can calculate any Fibonacci Number using the Golden Ratio:
@@ -136,7 +105,7 @@ You can also calculate a Fibonacci Number by multiplying the previous Fibonacci 
 Example: What is the next in the sequence after 8 ?
 It will be 8 times f:
 
-8f = 8 ◊ 1.618034...
+8f = 8 √ó 1.618034...
 = 12.94427...
 = 13 (rounded)
 
@@ -232,25 +201,25 @@ Performing the same operations multiple times with different inputs.
 In every step, we try smaller inputs to make the problem smaller.
 Base condition is needed to stop the recursion otherwise infinite loop will occur.
 Algorithm: Steps
-Step1 ñ Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
+Step1 ‚Äì Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
 
-Step2 ñ Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
+Step2 ‚Äì Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
 
-Step3 ñ Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
+Step3 ‚Äì Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
 
-step4 ñ Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
+step4 ‚Äì Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
 
 Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this,
 
-approach(1) ñ Simply adding one by one
+approach(1) ‚Äì Simply adding one by one
 
 
-f(n) = 1 + 2 + 3 +ÖÖ..+ n
+f(n) = 1 + 2 + 3 +‚Ä¶‚Ä¶..+ n
 
 
 but there is another mathematical approach of representing this,
 
-approach(2) ñ Recursive adding 
+approach(2) ‚Äì Recursive adding 
 
 
 f(n) = 1                  n=1
@@ -259,7 +228,7 @@ f(n) = 1                  n=1
 f(n) = n + f(n-1)    n>1
 
 
-There is a simple difference between the approach (1) and approach(2) and that is in approach(2) the function ì f( ) î itself is being called inside the function, so this phenomenon is named recursion, and the function containing recursion is called recursive function, at the end, this is a great tool in the hand of the programmers to code some problems in a lot easier and efficient way.
+There is a simple difference between the approach (1) and approach(2) and that is in approach(2) the function ‚Äú f( ) ‚Äù itself is being called inside the function, so this phenomenon is named recursion, and the function containing recursion is called recursive function, at the end, this is a great tool in the hand of the programmers to code some problems in a lot easier and efficient way.
 
 
 
