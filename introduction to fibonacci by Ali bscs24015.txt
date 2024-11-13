@@ -11,7 +11,8 @@ Fibonacci sequence is used in number theory, algebra, and geometry. It has appli
 
 In Biology
 Fibonacci sequence appears in biological settings, such as the branching of trees, the arrangement of leaves on a stem, the flowering of artichokes, and the spiral arrangement of seeds in a sunflower.
-
+in coding:
+A similar application of Fibonacci in Cryptography is described here by a Simple Illustration. Suppose that the Original Message” CODE” is to be Encrypted. It is sent through an unsecured channel. The security key is chosen based on the Fibonacci number.
 
 Formula:
 Fn = Fn-1 + Fn-2, where n > 1.
