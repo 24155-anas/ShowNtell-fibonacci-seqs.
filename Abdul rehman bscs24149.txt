@@ -46,3 +46,14 @@ Recursion
 Recursion is simply a prouss where calls itself problems. function to solve sub
 
 diser diserele maths, it is In discrete - a way Je affine motions, sequences or function Structures sules that by specifying nelaie each term or element to previous one In simple it is essentia for defining se algonitin's sequences, Cond structure's in discrete math, as it capture problem with repititine self - similar pattern.
+Case 's 3-
+
+ine ne ane two ne curssioθη case 3- cases in one is bovse
+
+Base case
+
+In simple words, it is case that tells the a function to stop calling fself. We need case 'so thai does not terminate Our function crashes or do when the base condition is meet.
+
+Recurrsine 3-
+
+In this case the function continous te call it sell sinless and untill it receive a base condition.
