@@ -179,3 +179,54 @@ wailing for merat we curssion
 (0, 100)
 
 base case neturing
+Non-Cai Li-
+
+In this ne curssi BALT after the recursive calls additional operations (like athematic operations) be Still mee performed Therefore each recursive call adds framel to the stack until the base is reached
+
+2. non tail- necursion (5) -calls
+
+non-tail (4)
+
+4
+
+2.
+
+(4) cal
+
+9.
+
+(3) -ocals
+
+M
+
+(2)-o calls (!
+
+8.
+
+nelar (2)
+
+4
+
+(1) -o call le
+
+N
+
+7.
+
+2.
+
+n (1) - necur
+
+१.
+
+(2)-stur a 2
+
+10
+
+4
+
+(3) •• netur 2
+
+4 (4) -retur 4
+
+15) elur
