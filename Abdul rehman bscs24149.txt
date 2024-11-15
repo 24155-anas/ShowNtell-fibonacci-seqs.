@@ -230,3 +230,12 @@ n (1) - necur
 4 (4) -retur 4
 
 15) elur
+Recursion Advantages3-
+
+Recursive program lequin less num ber statements. of programming
+
+* It is mone useful and multip nogrannminiousn multi-tasking en biousnme, in
+
+Reduce un necessary calling of funtion and length of code? "the program.
+
+very useful in It is very Solving the dara sorulture problem.
