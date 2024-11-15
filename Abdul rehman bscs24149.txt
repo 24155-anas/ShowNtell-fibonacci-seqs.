@@ -239,3 +239,14 @@ Recursive program lequin less num ber statements. of programming
 Reduce un necessary calling of funtion and length of code? "the program.
 
 very useful in It is very Solving the dara sorulture problem.
+Disadvantages-
+
+Recursive functions are generally slower than reculsine function. non-
+
+* It may requine a lot of memory space te hold intermedia resules on The sy system Stacks.
+
+* It is not more efficené in tams of space of time. comple kity
+
+The compeller may may var out of memory if the recursive calls the rot properly checked.
+
+ne
