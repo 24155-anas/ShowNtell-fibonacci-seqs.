@@ -108,3 +108,22 @@ Example -
 Fibonacci sequence a (add any wate In dinca or explanation if
 
 The function which call another function which turn calll the original function
+Pinect B
+
+Code Examples-
+
+iné fictoriall int n) {
+
+return 1;
+
+ebe{ return n* Efictorial(n-1 14 }
+
+Indine a-
+
+int ficionial lint n) { 0) return 1;
+
+else { neturn n* fictorialden-1);
+
+int fictorial 2 (int n){ n = 0) return 2;
+
+* else { return n* fictorial (n-1);
