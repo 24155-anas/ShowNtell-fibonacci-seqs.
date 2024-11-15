@@ -41,3 +41,8 @@ int main( ) {
 THE OUTPUT : 
 This code gives the number at which the number you entered is in that place in the fibonacci sequence .
 This code is the foundation of the eq defined at the upper part .
+Recursion
+
+Recursion is simply a prouss where calls itself problems. function to solve sub
+
+diser diserele maths, it is In discrete - a way Je affine motions, sequences or function Structures sules that by specifying nelaie each term or element to previous one In simple it is essentia for defining se algonitin's sequences, Cond structure's in discrete math, as it capture problem with repititine self - similar pattern.
