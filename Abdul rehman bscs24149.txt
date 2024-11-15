@@ -76,3 +76,24 @@ ul 41 = 4 x 31
 (base
 
 cabi
+our function is now ter minated.
+
+Plugging backs
+
+1! 1
+
+2! 2×1=2
+
+3! 2 3x2.6
+
+4.6 = 24 So fictorial of 4 is 24
+
+Code - 3-
+
+int fictonial lint n) {
+
+if n ==
+
+Treturn fictonialln-1);
+
+}
