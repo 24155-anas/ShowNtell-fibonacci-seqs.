@@ -57,3 +57,22 @@ In simple words, it is case that tells the a function to stop calling fself. We 
 Recurrsine 3-
 
 In this case the function continous te call it sell sinless and untill it receive a base condition.
+For example- Facionial Functions- Let consider that in this function our base case is O! =1 Base
+
+Recursive case 3- n! n(n-1)!
+
+Here any 3 com be mum ben which want the fictorial each X by the you This means that fictorialn! is previous fictorial. num ber ろじ
+
+Suppose the fictorial which we want is 4 then it will goes as follows
+
+ul 41 = 4 x 31
+
+312321
+
+11 = 1201
+
+0! = 1
+
+(base
+
+cabi
