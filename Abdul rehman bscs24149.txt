@@ -97,3 +97,14 @@ if n ==
 Treturn fictonialln-1);
 
 }
+Type's -
+
+Direct -1
+
+The dine lily function call it sef
+
+Example -
+
+Fibonacci sequence a (add any wate In dinca or explanation if
+
+The function which call another function which turn calll the original function
