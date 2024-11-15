@@ -127,3 +127,14 @@ else { neturn n* fictorialden-1);
 int fictorial 2 (int n){ n = 0) return 2;
 
 * else { return n* fictorial (n-1);
+ail Recurssion a In Fail recurssion each necursive call is the last operation, so Stock the fanction Irame is ne placed by the Hent necur sive call' Blacks frame with out needing te nemember the previous call.
+
+Let us an by understand it example:-
+
+int tail fadorial linen, int accomullaier = 1) {
+
+if (2000) { return accomulator; } else &
+
+return tail filonial ( lichonmall.
+
+* accom Μαίου)
