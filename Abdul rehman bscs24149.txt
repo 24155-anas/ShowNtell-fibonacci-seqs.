@@ -138,3 +138,44 @@ if (2000) { return accomulator; } else &
 return tail filonial ( lichonmall.
 
 * accom Μαίου)
+Calculating !
+
+Base case 512 5x4x3x201
+
+Here's how the slack look 3-
+
+3. tail factoni call 5.1) -> calls tail (4,5) 2. 2001. factorial (4,5) call, (3,20) 3. taid factorial (3,20)-calls 4 (260)
+
+4.
+
+(2,60). calls" (1,120)
+
+(1 120)→calls" 10,120)
+
+11 4 10,120) -> return (120)
+
+condition timi najed
+
+boop ended.
+
+stacle Diagram -
+
+tail-fictonial (5,1)
+
+wailing for merat we curssion
+
+11
+
+(4,5)
+
+4 (3,20)
+
+4
+
+(2,60)
+
+(1,100)
+
+(0, 100)
+
+base case neturing
