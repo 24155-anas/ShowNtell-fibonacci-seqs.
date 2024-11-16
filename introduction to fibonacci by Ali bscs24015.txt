@@ -91,25 +91,9 @@ B / A
 
 
 
-Using The Golden Ratio to Calculate Fibonacci Numbers
-Its surprising is that we can calculate any Fibonacci Number using the Golden Ratio:
-
-xn =  
-fn - (1-f)n
-v5
- 
-
-The answer comes out as a whole number, exactly equal to the addition of the previous two terms.
-
-Example: x6
-x6 =  
-(1.618034...)6 - (1-1.618034...)6
-v5
- 
-
-
-:
 use of Golden ratio in determining nth fibonacci
+I will call it the n*f formula
+let's understand it.
  What is the next in the sequence after 8 ?
 It will be 8 times f:
 
@@ -118,7 +102,8 @@ It will be 8 times f:
 = 13 (rounded)
 
 Some Interesting Things
-An odd fact:
+I also observed a pattern.Although its not a huge surprise but the appreciating thing is it is applicable upto infinityand there is a simple primary level reason behind it.
+
 The sequence goes even, odd, odd, even, odd, odd, even, odd, odd, ... :
 
 0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	610	...
@@ -127,26 +112,11 @@ There is a reason in this phenomena that is repeating.
 Because adding two odd numbers produces an even number, but adding even and odd (in any order) produces an odd number.
 We can also prove it by using predicates and operators.
 
-
-
-Terms Below Zero
-The sequence works below zero also, like this:
-
-n =	...	-6	-5	-4	-3	-2	-1	0	1	2	3	4	5	6	...
-xn =	...	-8	5	-3	2	-1	1	0	1	1	2	3	5	8	...
-(Prove to yourself that each number is found by adding up the two numbers before it!)
-
-In fact the sequence below zero has the same numbers as the sequence above zero, except they follow a +-+- ... pattern. It can be written like this:
-
-x-n = (-1)n+1 xn
-
-Which says that term "-n" is equal to (-1)n+1 times term "n", and the value (-1)n+1 neatly makes the correct +1, -1, +1, -1, ... pattern.
-
 Fibonacci Day;
 Fibonacci Day is November 23rd.
 
  
-                  _________________________________________________________________________________________
+            _________________________________________________________________________________________
 RECURSION:        
 
 What is Recursion? 
