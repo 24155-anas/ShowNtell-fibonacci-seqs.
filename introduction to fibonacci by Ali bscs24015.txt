@@ -1,15 +1,24 @@
                                                            Fibonacci Sequence
 Definition:
-We can define it as the series of numbers(sequence)in which each number is the sum of the two preceding ones.Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers,commonly denoted Fn
+We can define it as the series of numbers(sequence)in which each number is the sum of the two preceding ones.Numbers that are part of the Fibonacci sequence are known as Fibonacci numbers ,commonly denoted Fn
 Example:
 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377
 REAL LIFE EXAMPLE:
-spirals of seedsin the center of sunflower.
+spirals of seeds in the center of sunflower.
+Applications:
+In Mathematics
+Fibonacci sequence is used in number theory, algebra, and geometry. It has applications in the analysis of financial markets and computer algorithms.
+
+In Biology
+Fibonacci sequence appears in biological settings, such as the branching of trees, the arrangement of leaves on a stem, the flowering of artichokes, and the spiral arrangement of seeds in a sunflower.
+in coding:
+A similar application of Fibonacci in Cryptography is described here by a Simple Illustration. Suppose that the Original Message” CODE” is to be Encrypted. It is sent through an unsecured channel. The security key is chosen based on the Fibonacci number.
+
 Formula:
 Fn = Fn-1 + Fn-2, where n > 1.
 Example F(5)=5
 Introduction of the founder:
-The man's full name was Leonardo of Pisa, or Leonardo Pisano in Italian. He was born in about 1175 in Pisa, a Tuscan town famous for its Leaning Tower. The name Fibonacci [pronounced fib-on-ach-ee] is short for �filius Bonacci � or �son of Bonacci.
+The man's full name was Leonardo of Pisa, or Leonardo Pisano in Italian. He was born in about 1175 in Pisa, a Tuscan town famous for its Leaning Tower. The name Fibonacci [pronounced fib-on-ach-ee] is short for “filius Bonacci “ or “son of Bonacci.
 Fibonacci brings the numerals 0-9 to Europe and identifies a number sequence that exists in nature. He solved many problems with algebra for the first time using the shortened versions of numbers that used the Hindu-Arabic numerals. He wrote several books that studied algebra, geometry, and trigonometry.
 USES:
 Fibonacci numbers can also be used to define a spiral and are of interest to biologists and physicists because they are frequently observed in various natural objects and phenomena. The branching patterns in trees and leaves, for example, and the distribution of seeds in a raspberry reflect the Fibonacci sequence.
@@ -17,5 +26,152 @@ RELATION WITH COMPUTER SCIENCE:
 In computational theory, Fibonacci numbers can represent the complexity of algorithms, as exemplified by the Fibonacci Heap data structure. The efficiency of Fibonacci algorithms is paramount in computing, where rapid processing of extensive data is necessary.
 Relation with golden ratio:
 To summarize, the Fibonacci sequence begins with 0 and 1, and each successive number is the sum of the two previous numbers. As the Fibonacci sequence grows, if you divide pairs of numbers in the sequence (the larger by the smaller), you will get an approximate value of the golden ratio, which is roughly 1.618.
+The Fibonacci Sequence can be written as a "Rule" 
+First, the terms are numbered from 0 onwards like this:
+
+n =	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	...
+xn =	0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	...
+So term number 6 is called x6 (which equals 8).
+
+Example: the 7th term is
+the 5th term plus the 6th term:
 
 
+x7 = x5 + x6
+
+fibonacci rule x_8 = x_7 + x_6
+So we can write the rule:
+
+The Rule is xn = xn-1 + xn-2
+
+where:
+
+xn is term number "n"
+xn-1 is the previous term (n-1)
+xn-2 is the term before that (n-2)
+Example: term 9 is calculated like this:
+x9= x9-1 + x9-2
+ = x8 + x7
+ = 21 + 13
+ = 34
+Golden Ratio;
+golden rectangle
+And here is a surprise. When we take any two successive (one after the other) Fibonacci Numbers, their ratio is very close to the Golden Ratio "f" which is approximately 1.618034...
+
+In fact, the bigger the pair of Fibonacci Numbers, the closer the approximation. 
+
+A
+B
+ 	
+B / A
+2
+3
+ 	1.5
+3
+5
+ 	1.666666666...
+5
+8
+ 	1.6
+8
+13
+ 	1.625
+...
+...
+ 	...
+144
+233
+ 	1.618055556...
+233
+377
+ 	1.618025751...
+
+
+
+
+Using The Golden Ratio to Calculate Fibonacci Numbers
+Its surprising is that we can calculate any Fibonacci Number using the Golden Ratio:
+
+xn =  
+fn - (1-f)n
+v5
+ 
+
+The answer comes out as a whole number, exactly equal to the addition of the previous two terms.
+
+Example: x6
+x6 =  
+(1.618034...)6 - (1-1.618034...)6
+v5
+ 
+
+
+:
+use of Golden ratio in determining nth fibonacci
+ What is the next in the sequence after 8 ?
+It will be 8 times f:
+
+8f = 8 × 1.618034...
+= 12.94427...
+= 13 (rounded)
+
+Some Interesting Things
+An odd fact:
+The sequence goes even, odd, odd, even, odd, odd, even, odd, odd, ... :
+
+0	1	1	2	3	5	8	13	21	34	55	89	144	233	377	610	...
+There is a reason in this phenomena that is repeating.
+
+Because adding two odd numbers produces an even number, but adding even and odd (in any order) produces an odd number.
+We can also prove it by using predicates and operators.
+
+
+
+Terms Below Zero
+The sequence works below zero also, like this:
+
+n =	...	-6	-5	-4	-3	-2	-1	0	1	2	3	4	5	6	...
+xn =	...	-8	5	-3	2	-1	1	0	1	1	2	3	5	8	...
+(Prove to yourself that each number is found by adding up the two numbers before it!)
+
+In fact the sequence below zero has the same numbers as the sequence above zero, except they follow a +-+- ... pattern. It can be written like this:
+
+x-n = (-1)n+1 xn
+
+Which says that term "-n" is equal to (-1)n+1 times term "n", and the value (-1)n+1 neatly makes the correct +1, -1, +1, -1, ... pattern.
+
+Fibonacci Day;
+Fibonacci Day is November 23rd, as it has the digits "1, 1, 2, 3" which is part of the sequence. So next Nov 23 let everyone know!
+
+ 
+       RECURSION:
+
+What is Recursion? 
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function. Using a recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc. A recursive function solves a particular problem by calling itself with different parameters to solve smaller subproblems of the original problem. The called function may further call itself and this process might continue forever. So it is essential to know that we should provide a certain case in order to terminate this recursion process. We can say that every time the function calls itself with a simpler version of the original problem and moves toward the termination case or base case.
+
+Need of Recursion
+
+Recursion is an amazing technique with the help of which we can reduce the length of our code and make it easier to read and write. It has certain advantages over the iteration technique which will be discussed later. A task that can be defined with its similar subtask, recursion is one of the best solutions for it. For example; The Factorial of a number.
+
+Properties of Recursion:
+
+Performing the same operations multiple times with different inputs.
+In every step, we try smaller inputs to make the problem smaller.
+Base condition is needed to stop the recursion otherwise infinite loop will occur.
+Algorithm: Steps
+Step1 – Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
+
+Step2 – Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
+
+Step3 – Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
+
+step4 – Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
+
+Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this
+
+f(n) = 1 + 2 + 3 +……..+ n
+So,we can say that use of recursion is too much concerning in the field of computer science,because it has a key role in determining the steps of algorithms.In other words it tells us about the total time which will be taken by the code or coder.
+
+Efficiency of a code can be determined using recursion . So,to improve efficiency and to check efficiency recursion can be the helpful or prior tool
+What is a major concept of recursion?
+Recursion is a technique in programming where a function calls itself to solve a problem. It involves breaking down a complex problem into smaller subproblems. Each time the function calls itself, it works on a smaller subset of the original problem until a base case is reached, allowing the recursion to terminate.

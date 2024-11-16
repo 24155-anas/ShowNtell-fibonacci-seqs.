@@ -41,3 +41,212 @@ int main( ) {
 THE OUTPUT : 
 This code gives the number at which the number you entered is in that place in the fibonacci sequence .
 This code is the foundation of the eq defined at the upper part .
+Recursion
+
+Recursion is simply a prouss where calls itself problems. function to solve sub
+
+diser diserele maths, it is In discrete - a way Je affine motions, sequences or function Structures sules that by specifying nelaie each term or element to previous one In simple it is essentia for defining se algonitin's sequences, Cond structure's in discrete math, as it capture problem with repititine self - similar pattern.
+Case 's 3-
+
+ine ne ane two ne curssioθη case 3- cases in one is bovse
+
+Base case
+
+In simple words, it is case that tells the a function to stop calling fself. We need case 'so thai does not terminate Our function crashes or do when the base condition is meet.
+
+Recurrsine 3-
+
+In this case the function continous te call it sell sinless and untill it receive a base condition.
+For example- Facionial Functions- Let consider that in this function our base case is O! =1 Base
+
+Recursive case 3- n! n(n-1)!
+
+Here any 3 com be mum ben which want the fictorial each X by the you This means that fictorialn! is previous fictorial. num ber ろじ
+
+Suppose the fictorial which we want is 4 then it will goes as follows
+
+ul 41 = 4 x 31
+
+312321
+
+11 = 1201
+
+0! = 1
+
+(base
+
+cabi
+our function is now ter minated.
+
+Plugging backs
+
+1! 1
+
+2! 2×1=2
+
+3! 2 3x2.6
+
+4.6 = 24 So fictorial of 4 is 24
+
+Code - 3-
+
+int fictonial lint n) {
+
+if n ==
+
+Treturn fictonialln-1);
+
+}
+Type's -
+
+Direct -1
+
+The dine lily function call it sef
+
+Example -
+
+Fibonacci sequence a (add any wate In dinca or explanation if
+
+The function which call another function which turn calll the original function
+Pinect B
+
+Code Examples-
+
+iné fictoriall int n) {
+
+return 1;
+
+ebe{ return n* Efictorial(n-1 14 }
+
+Indine a-
+
+int ficionial lint n) { 0) return 1;
+
+else { neturn n* fictorialden-1);
+
+int fictorial 2 (int n){ n = 0) return 2;
+
+* else { return n* fictorial (n-1);
+ail Recurssion a In Fail recurssion each necursive call is the last operation, so Stock the fanction Irame is ne placed by the Hent necur sive call' Blacks frame with out needing te nemember the previous call.
+
+Let us an by understand it example:-
+
+int tail fadorial linen, int accomullaier = 1) {
+
+if (2000) { return accomulator; } else &
+
+return tail filonial ( lichonmall.
+
+* accom Μαίου)
+Calculating !
+
+Base case 512 5x4x3x201
+
+Here's how the slack look 3-
+
+3. tail factoni call 5.1) -> calls tail (4,5) 2. 2001. factorial (4,5) call, (3,20) 3. taid factorial (3,20)-calls 4 (260)
+
+4.
+
+(2,60). calls" (1,120)
+
+(1 120)→calls" 10,120)
+
+11 4 10,120) -> return (120)
+
+condition timi najed
+
+boop ended.
+
+stacle Diagram -
+
+tail-fictonial (5,1)
+
+wailing for merat we curssion
+
+11
+
+(4,5)
+
+4 (3,20)
+
+4
+
+(2,60)
+
+(1,100)
+
+(0, 100)
+
+base case neturing
+Non-Cai Li-
+
+In this ne curssi BALT after the recursive calls additional operations (like athematic operations) be Still mee performed Therefore each recursive call adds framel to the stack until the base is reached
+
+2. non tail- necursion (5) -calls
+
+non-tail (4)
+
+4
+
+2.
+
+(4) cal
+
+9.
+
+(3) -ocals
+
+M
+
+(2)-o calls (!
+
+8.
+
+nelar (2)
+
+4
+
+(1) -o call le
+
+N
+
+7.
+
+2.
+
+n (1) - necur
+
+१.
+
+(2)-stur a 2
+
+10
+
+4
+
+(3) •• netur 2
+
+4 (4) -retur 4
+
+15) elur
+Recursion Advantages3-
+
+Recursive program lequin less num ber statements. of programming
+
+* It is mone useful and multip nogrannminiousn multi-tasking en biousnme, in
+
+Reduce un necessary calling of funtion and length of code? "the program.
+
+very useful in It is very Solving the dara sorulture problem.
+Disadvantages-
+
+Recursive functions are generally slower than reculsine function. non-
+
+* It may requine a lot of memory space te hold intermedia resules on The sy system Stacks.
+
+* It is not more efficené in tams of space of time. comple kity
+
+The compeller may may var out of memory if the recursive calls the rot properly checked.
+
+ne
