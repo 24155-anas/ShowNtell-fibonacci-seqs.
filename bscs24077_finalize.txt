@@ -66,3 +66,35 @@ Every third Fibonacci number is even, and every fourth number is a multiple of t
 
 Sum of Fibonacci Numbers
 The sum of the first n Fibonacci numbers is equal to the (n + 2)th Fibonacci number minus 1.
+
+
+9. Practical Implementations of the Fibonacci Sequence
+
+C++ Implementation
+
+#include <iostream>
+using namespace std;
+int fibonacci(int n) {
+    if (n <= 1)
+       return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+int main() {
+    int n = 10;
+    for (int i = 0; i < n; i++) {
+        cout << fibonacci(i) << " ";
+    }
+    return 0;
+}
+
+
+Python Implementation
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+n = 10
+for i in range(n):
+    print(fibonacci(i), end=" ")
