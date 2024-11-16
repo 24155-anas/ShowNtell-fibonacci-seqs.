@@ -141,12 +141,14 @@ x-n = (-1)n+1 xn
 Which says that term "-n" is equal to (-1)n+1 times term "n", and the value (-1)n+1 neatly makes the correct +1, -1, +1, -1, ... pattern.
 
 Fibonacci Day;
-Fibonacci Day is November 23rd, as it has the digits "1, 1, 2, 3" which is part of the sequence. So next Nov 23 let everyone know!
+Fibonacci Day is November 23rd.
 
  
-       RECURSION:
+                  _________________________________________________________________________________________
+RECURSION:        
 
 What is Recursion? 
+The first question which comes to our mind is what is recursion.
 The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function. Using a recursive algorithm, certain problems can be solved quite easily. Examples of such problems are Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc. A recursive function solves a particular problem by calling itself with different parameters to solve smaller subproblems of the original problem. The called function may further call itself and this process might continue forever. So it is essential to know that we should provide a certain case in order to terminate this recursion process. We can say that every time the function calls itself with a simpler version of the original problem and moves toward the termination case or base case.
 
 Need of Recursion
