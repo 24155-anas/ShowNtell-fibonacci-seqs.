@@ -1,0 +1,39 @@
+
+
+1. Introduction to the Fibonacci Sequence
+
+Definition and Formula
+The Fibonacci Sequence is a series of numbers where each number is the sum of the two preceding ones. Mathematically: 
+F(n) = F(n-1) + F(n-2) with initial values F(0) =0 and F(1) =1
+The sequence begins: 0, 1, 1, 2, 3, 5, 8, 13, etc.
+
+
+
+Golden Ratio;
+And here is a surprise. When we take any two successive (one after the other) Fibonacci Numbers, their ratio is very close to the Golden Ratio "f" which is approximately 1.618034...
+Let me relate this with mathematics;
+let A and B,the two numbers. I do not know that it is true or not but as I choose the more bigger numbers , the more closer I go to the golden ratio
+in other words;
+ the bigger the pair of Fibonacci Numbers, the closer the approximation.
+Relation with golden ratio:
+To summarize, the Fibonacci sequence begins with 0 and 1, and each successive number is the sum of the two previous numbers. As the Fibonacci sequence grows, if you divide pairs of numbers in the sequence (the larger by the smaller), you will get an approximate value of the golden ratio, which is roughly 1.618.
+
+
+Properties of Recursion:
+
+Performing the same operations multiple times with different inputs.
+In every step, we try smaller inputs to make the problem smaller.
+Base condition is needed to stop the recursion otherwise infinite loop will occur.
+Algorithm: Steps
+Step1 – Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
+
+Step2 – Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
+
+Step3 – Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
+
+step4 – Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
+
+Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this
+
+
+
