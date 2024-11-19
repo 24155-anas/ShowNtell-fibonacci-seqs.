@@ -19,19 +19,28 @@ Relation with golden ratio:
 To summarize, the Fibonacci sequence begins with 0 and 1, and each successive number is the sum of the two previous numbers. As the Fibonacci sequence grows, if you divide pairs of numbers in the sequence (the larger by the smaller), you will get an approximate value of the golden ratio, which is roughly 1.618.
 
 
+Recursion is simply a process where a function calls itself to solve sub-problems.
+
+
+Recursively Defined Functions:
+
+Basis Step: Specifies the value of the function for the first term(s).
+Recursive Step: Gives a rule for finding subsequent values using previous value(s), beginning at those defined in the basis step.
+
+
 Properties of Recursion:
 
 Performing the same operations multiple times with different inputs.
 In every step, we try smaller inputs to make the problem smaller.
 Base condition is needed to stop the recursion otherwise infinite loop will occur.
 Algorithm: Steps
-Step1 – Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
+Step1   Define a base case: Identify the simplest case for which the solution is known or trivial. This is the stopping condition for the recursion, as it prevents the function from infinitely calling itself.
 
-Step2 – Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
+Step2   Define a recursive case: Define the problem in terms of smaller subproblems. Break the problem down into smaller versions of itself, and call the function recursively to solve each subproblem.
 
-Step3 – Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
+Step3   Ensure the recursion terminates: Make sure that the recursive function eventually reaches the base case, and does not enter an infinite loop.
 
-step4 – Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
+step4   Combine the solutions: Combine the solutions of the subproblems to solve the original problem.
 
 Let us consider a problem that a programmer has to determine the sum of first n natural numbers, there are several ways of doing that but the simplest approach is simply to add the numbers starting from 1 to n. So the function simply looks like this
 
