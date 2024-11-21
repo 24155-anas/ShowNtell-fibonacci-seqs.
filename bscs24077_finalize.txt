@@ -128,3 +128,37 @@ Example of Diagonal Sums:
 6. Sixth Diagonal: 1+4+3 = 8.
 These sums form the fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, ...
 
+--Graph Theory
+
+-Fibonacci Trees:
+Structure of a Fibonacci Tree
+A Fibonacci tree for F(n) is defined recursively:
+For n = (0) The tree is empty.
+For n = 1: The tree is a single
+For n > 1: The root has two children:
+► The left child is the Fibonacci tree for F(n - 1).
+► The right child is the Fibonacci tree for F(n - 2).
+Count the number of nodes at each level, and the total is F(n+2)-1.
+Applications:
+1. Modeling Recursive Algorithms:
+Fibonacci trees help visualize recursion in algorithms like divide-and-conquer.
+2. Binary Decision Trees:
+Used in combinatorial problems to represent decisions and outcomes.
+
+-Fibonacci Numbers in Network Optimization:
+Fibonacci numbers are used in network theory to model efficient paths, optimize routing, and distribute workloads:
+1. Routing in Mesh Networks:
+Fibonacci-based structures can balance traffic and optimize resource allocation in distributed systems.
+2. Distributed Computing:
+Tasks are divided recursively using Fibonacci proportions for workload optimization.
+
+-Rabbit Graphs (Fibonacci Graphs):
+The classic rabbit problem introduced by Fibonacci can be visualized as a graph:
+Nodes: Each node represents a generation of rabbits.
+Edges: Edges connect nodes to their descendants.
+Structure: The graph follows the Fibonacci sequence:
+° F(0) = 0: No rabbits.
+° F(1) = 1: One pair of rabbits.
+° F(2) = 1+1 = 2: Two pairs, and so on
+
+
