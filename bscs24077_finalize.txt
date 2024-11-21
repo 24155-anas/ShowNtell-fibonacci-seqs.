@@ -98,3 +98,33 @@ def fibonacci(n):
 n = 10
 for i in range(n):
     print(fibonacci(i), end=" ")
+
+---Applications in Discrete Mathematics:
+
+-Tiling Problems:
+Problem Statement: In how many distinct ways can you cover a 2 x n grid with 2 x 1 dominoes?
+When n = 1 One way (a single vertical domino).
+When n = 2 Either (two vertical dominoes or stacked two horizontal dominoes)
+For larger n, this count is equal to the Fibonacci numbers.
+Because the solution for n depends on the solution for n - 1(add a vertical domino) and n - 2(add two horizontal dominoes).
+Illustration:
+Fibonacci Numbers and the Recurrence Relation
+T(n) = T(n-1) + T(n-2)
+
+--Combinatorics:
+
+-Binomial Coefficients:
+Fibonacci Numbers are Present in Pascal's Triangle For example:
+F(5) = C(4,0) + C(3,1) + C(2,2) + C(1,3) + C(0,4)
+,where C(n,k) is the binomial coefficient.
+The Fibonacci sequence appears when summing certain diagonals in Pascal's Triangle:
+Start at the top left (1) and move diagonally to the right, summing numbers along each diagonal.
+Example of Diagonal Sums:
+1. First Diagonal: 1 (top-most number in the triangle).
+2. Second Diagonal: 1.
+3. Third Diagonal: 1+1 = 2.
+4. Fourth Diagonal: 1 + 2 = 3.
+5. Fifth Diagonal: 1+3+1 = 5.
+6. Sixth Diagonal: 1+4+3 = 8.
+These sums form the fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, ...
+
