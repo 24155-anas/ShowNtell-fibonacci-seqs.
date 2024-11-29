@@ -145,8 +145,7 @@ Fibonacci Binary Trees: Time Complexity and Levels
 
 2. Total Time Complexity:
 - Total work is the sum of work at all levels.
-- Total nodes in the tree: sum of a geometric series:
-  Total nodes = Sum(2^k, k=0 to height) = 2^(Height + 1) - 1.
+- The Fibonacci tree of order n has exactly F(n+2)−1 nodes.
 
 - Since the height of the tree is n (the Fibonacci index), the total time complexity is:
   Total Time Complexity: O(2^n).
@@ -155,7 +154,7 @@ Fibonacci Binary Trees: Time Complexity and Levels
 - The number of levels corresponds to the height of the tree, which is determined by n:
   - Root is at level 0.
   - Tree height: n.
-  - Total levels: n + 1 (including root and leaf levels).
+  - Total levels: n + 1 
 
 
 
