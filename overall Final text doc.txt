@@ -46,3 +46,92 @@ Let us consider a problem that a programmer has to determine the sum of first n 
 
 
 
+In Fibonacci sequences:
+
+Base case:
+
+F(0)=0, F(1)=1
+
+recursive case:
+F(n)=F(n-1)+F(n-2)
+
+Proving By Induction:
+
+F(n) = F(n-1) + F(n-2), for n >= 2,
+where F(0) = 0 and F(1) = 1.
+
+---
+
+Step 1: Base Cases
+
+For n = 2:
+
+F(2) = F(1) + F(0) = 1 + 0 = 1.
+
+This matches the definition of the Fibonacci sequence, so the base case holds.
+
+For n = 3:
+
+F(3) = F(2) + F(1) = 1 + 1 = 2.
+
+This also matches the definition of the Fibonacci sequence, so the second base case holds.
+
+---
+
+Step 2: Inductive Hypothesis
+
+Assume that the recursive relation holds for n = k :
+
+F(k) = F(k-1) + F(k-2)
+
+---
+
+Step 3: Inductive Step
+
+We need to prove that the recursive relation holds for n = k+1, i.e.,
+
+F(k+1) = F(k) + F(k-1).
+
+Using the Fibonacci recurrence definition:
+
+F(k+1) = F(k) + F(k-1).
+
+By the inductive hypothesis, we know:
+
+F(k) = F(k-1) + F(k-2),
+and
+F(k-1) = F(k-2) + F(k-3).
+
+Substitute F(k) = F(k-1) + F(k-2) into the equation for F(k+1):
+
+F(k+1) = (F(k-1) + F(k-2)) + F(k-1).
+
+Simplify:
+
+F(k+1) = F(k-1) + F(k-2) + F(k-1),
+F(k+1) = 2F(k-1) + F(k-2).
+
+Now substitute F(k-1) = F(k-2) + F(k-3):
+
+F(k+1) = 2(F(k-2) + F(k-3)) + F(k-2),
+F(k+1) = 2F(k-2) + 2F(k-3) + F(k-2),
+F(k+1) = 3F(k-2) + 2F(k-3).
+
+This simplifies to exactly match the recursive Fibonacci pattern:
+
+F(k+1) = F(k) + F(k-1).
+
+Thus, the inductive step holds.
+
+---
+
+Step 4: Conclusion
+
+By the principle of induction, the Fibonacci numbers follow the recursive relation:
+
+F(n) = F(n-1) + F(n-2), for all n >= 2.
+
+
+
+
+
