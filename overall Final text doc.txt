@@ -143,4 +143,9 @@ Fibonacci Binary Trees: Time Complexity and Levels
   - Total levels: n + 1 
 
 
+Binet's formula
+Proof by Induction
+Applications
+codes
+
 
